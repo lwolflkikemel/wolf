@@ -8,20 +8,38 @@
   <meta name="description" content="Кино,актеры,новости про кино">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="./CSS/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <Body id="back">
 
-  <header>
+  
     <div class="container">
-
+      <div class="container_seach">
+        <div class="seach-menu">
+          <form action="">
+            <span><input class="seach" type="seach" placeholder="Поиск"></span>
+            <span><button class="seach_enter" type="submit"><i class="fa fa-search"></i></button></span>
+          </form>
+        </div>
+      </div>
       <div class="block">
+        <div id="aside">
+          <div class="dropup_l">
+            <button class="dropbtn_l"> А </button>
+            <div class="dropup-content_l">
+              <form action="">
+                <input id="input" type="text" placeholder="Login"> <br><br>
+                <input id="input" type="password" placeholder="Password"> <br><br>
+                <input id="input" type="submit" value="Вход">
+              </form>
+            </div>
+          </div>
+        </div>
         <div id="header2">
           <h4>КиноМир</h4>
         </div>
+  
         <div id="menu-head">
-
-          <span></span>
-
           <nav id="nav">
             <ul>
               <li id="menu"><a href="index.html"><button class="dropbtn">Главная страница</button></a></li>
@@ -44,17 +62,13 @@
               <li id="menu"><a href="Actor.html"><button class="dropbtn">Актеры</button></a></li>
               <li id="menu"><a href="News.html"><button class="dropbtn">Новости кино</button></a></li>
               <li id="menu"><a href="Random.html"><button class="dropbtn">Случайный фильм</button></a></li>
-              <form action="">
-                <span id="menu-seach"><input type="seach" placeholder="Поиск"></span>
-                <span id="menu-seach"><input type="submit" value="Поиск"></span>
-              </form>
             </ul>
           </nav>
           <main>
             <div id="main">
               <div class="main-conten">
                 <ul class="main-content">
-                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora autem provident eum recusandae
+                  <li>Lorem ipsum dolor sit amet, sconsectetur adipisicing elit. Tempora autem provident eum recusandae
                     dolor mollitia totam excepturi ipsam blanditiis deserunt? Distinctio quos architecto quaerat maxime
                     illum doloribus soluta incidunt officia.</li>
                   <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora autem provident eum recusandae
@@ -70,7 +84,7 @@
                     dolor mollitia totam excepturi ipsam blanditiis deserunt? Distinctio quos architecto quaerat maxime
                     illum doloribus soluta incidunt officia.</li>
                   <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora autem provident eum recusandae
-                    dolor mollitia totam excepturi ipsam blanditiis deserunt? Distinctio quos architecto quaerat maxime
+                    dolor mollitia totam excepturi ipsam blanditiis deserunt? Distinctio quos architecto quaerat maxi
                     illum doloribus soluta incidunt officia.</li>
 
                 </ul>
@@ -81,18 +95,9 @@
         </div>
       </div>
 
-      <aside>
-        <div id="aside">
-          <div id="login">
-            <form action="">
-              <input id="input" type="text" placeholder="Login"> <br><br>
-              <input id="input" type="password" placeholder="Password"> <br><br>
-              <input id="input" type="submit" value="Вход">
-            </form>
-          </div>
-        </div>
 
-        <div id="aside2"></div>
+
+      <div id="aside2"></div>
       </aside>
       <footer>
         <div id="footer"></div>
