@@ -1,17 +1,14 @@
 (function() {
   const token = localStorage.getItem('token')
 
-  if (token) {
-    const dropupLogin = document.getElementById('dropup-content_l');
-    dropupLogin.style.display = "none";
+  const dropupLogin = document.getElementById('dropup-content_l');
+  const userAvatar = document.getElementById('user-avatar');
 
-    const userAvatar = document.getElementById('user-avatar');
+  if (token) {
+    dropupLogin.style.display = "none";
     userAvatar.style.display = "block";
   } else {
-    const dropupLogin = document.getElementById('dropup-content_l');
     dropupLogin.style.display = "block";
-
-    const userAvatar = document.getElementById('user-avatar');
     userAvatar.style.display = "none";
   }
 })()
