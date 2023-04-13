@@ -2,96 +2,94 @@
 <html>
 
 <head>
-  <title>КіноВсесвіт</title>
-  <meta charset="utf-8">
-  <meta name="author" content="Eugen">
-  <meta name="description" content="Кино,актеры,новости про кино">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="../../style/general.css">
-  <link rel="stylesheet" href="../../style/header.css">
-  <link rel="stylesheet" href="../../style/navigation.css">
-  <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>КіноВсесвіт</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Eugen">
+    <meta name="description" content="Кино,актеры,новости про кино">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../../style/general.css">
+    <link rel="stylesheet" href="../../style/header.css">
+    <link rel="stylesheet" href="../../style/navigation.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<Body>
-  <Header>
-    <div class="header">
-      <div class="conteiner">
-        <div class="header_row">
-          <div class="header_logo">
-            <div class="logo">КіноВсесвіт</div>
-          </div>
-          <div class="header_seach">
-            <div class="container_seach">
-              <div class="seach-menu">
-                <form action="">
-                  <span><input class="seach" type="seach" placeholder="Пошук"></span>
-                  <span><button class="seach_enter" type="submit"><i class="fa fa-search"></i></button></span>
-                </form>
-              </div>
-            </div>
-          </div>
-          <div class="header_auth">
-            <div class="login">
-              <div class="dropup_l">
-                <button class="dropbtn_l"> А </button>
-                <div class="dropup-content_l">
-                  <form action="">
-                    <input id="input" type="text" placeholder="Login"> <br><br>
-                    <input id="input" type="password" placeholder="Password"> <br><br>
-                    <input id="input" type="submit" value="Вхід">
-                  </form>
+    <Body>
+        <Header>
+            <div class="header">
+                <div class="conteiner">
+                    <div class="header_row">
+                        <div class="header_logo">
+                            <div class="logo">КіноВсесвіт</div>
+                        </div>
+                        <div class="header_seach">
+                            <div class="container_seach">
+                                <div class="seach-menu">
+                                    <form action="">
+                                        <span><input class="seach" type="seach" placeholder="Пошук"></span>
+                                        <span><button class="seach_enter" type="submit"><i class="fa fa-search"></i></button></span>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_auth">
+                            <div class="login">
+                                <div class="dropup_l">
+                                    <button id="user-avatar" class="dropbtn_l"> А </button>
+                                    <div id="dropup-content_l" class="dropup-content_l">
+                                        <form action="">
+                                            <input id="login-button" type="text" placeholder="Login"> <br><br>
+                                            <input id="password-button" type="password" placeholder="Password"> <br><br>
+                                            <input id="submit-button" type="button" value="Вхід">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </Header>
-  <nav>
-  <div class="navigation">
-    <div class="conteiner">
-      <div class="navigation_row">
-        <div class="menu_row">
-          <ul class="menu">
-            <li> <a href="../main/index.html"><button class="dropbtn">Головна сторінка</button></a></li>
-            <li>
-              <div class="dropup">
-                <button class="dropbtn"> Жанри </button>
-                <div class="dropup-content">
-                  <a href="#">Бойовики</a>
-                  <a href="#">Комедії</a>
-                  <a href="#">Фантастика</a>
-                  <a href="#">Пригоди</a>
-                  <a href="#">Трилер</a>
-                  <a href="#">Фільми жахів</a>
-                  <a href="#">Детективи</a>
-                  <a href="#">Мелодрами</a>
+        </Header>
+        <nav>
+            <div class="navigation">
+                <div class="conteiner">
+                    <div class="navigation_row">
+                        <div class="menu_row">
+                            <ul class="menu">
+                                <li> <a href="../main/index.html"><button class="dropbtn">Головна сторінка</button></a></li>
+                                <li>
+                                    <div class="dropup">
+                                        <button class="dropbtn"> Жанри </button>
+                                        <div class="dropup-content">
+                                            <a href="#">Бойовики</a>
+                                            <a href="#">Комедії</a>
+                                            <a href="#">Фантастика</a>
+                                            <a href="#">Пригоди</a>
+                                            <a href="#">Трилер</a>
+                                            <a href="#">Фільми жахів</a>
+                                            <a href="#">Детективи</a>
+                                            <a href="#">Мелодрами</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li> <a href="../top100/index.html"><button class="dropbtn">Топ 100</button></a></li>
+                                <li> <a href="../actor/index.html"><button cglass="dropbtn">Актори</button></a></li>
+                                <li> <a href="../news/index.html"><button class="dropbtn">Новини кіно</button></a></li>
+                                <li> <a href="#"><button class="dropbtn">Випадковий фільм</button></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
-              </div>
-            </li>
-            <li> <a href="../top100/index.html"><button class="dropbtn">Топ 100</button></a></li>
-            <li> <a href="../actor/index.html"><button cglass="dropbtn">Актори</button></a></li>
-            <li> <a href="../news/index.html"><button class="dropbtn">Новини кіно</button></a></li>
-            <li> <a href="#"><button class="dropbtn">Випадковий фільм</button></a></li>
-          </ul>
+            </div>
+        </nav>
+        <div class="main_content">
+            <div class="conteiner">
+                <div class="content">
+                </div>
+            </div>
         </div>
-  
-      </div>
-    </div>
-  </div>    
-</nav>
-<div class="main_content">
-  <div class="conteiner">
-    <div class="content">
-
-              
-    </div>
-  </div>
-</div>
-
-</Body>
+        <script src="../../js/common.js"></script>
+    </Body>
 </head>
 
 </html>

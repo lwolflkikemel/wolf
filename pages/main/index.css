@@ -1,48 +1,58 @@
-.content_row a:visited{
+.content_row a:visited {
     text-decoration: none;
     color: white;
-    }
-.content_row a:hover{
+}
+
+.content_row a:hover {
     color: aqua;
 }
-.news_title{
+
+.news_title {
     font-size: 30px;
     line-height: 36px;
     color: orange;
     margin: 0px 0px 30px 0px;
-    text-align: center;       
+    text-align: center;
 }
-.content_row{
+
+.content_row {
     display: flex;
     flex-wrap: wrap;
     margin: 0px -30px;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
     flex-direction: column;
-    }
-.content_news{
+}
+
+.content_news {
     flex: 0 1 auto;
     margin: 30px 0px 30px 30px;
     padding: 0px 30px;
 }
-.item_row{
+
+.item_row {
     display: flex;
     align-items: center;
 }
-.content_img{
+
+.content_img {
     flex: 0 1 150px;
 }
-.item_body{
+
+.item_body {
     flex: 1 1 auto;
-    padding: 0px 0px 0px 15px;;
+    padding: 0px 0px 0px 15px;
+    ;
     align-items: center;
     justify-content: center;
 }
-.content_img img{
+
+.content_img img {
     width: 220px;
     height: 150px;
-    }
-.content_title{
+}
+
+.content_title {
     font-size: 20px;
     line-height: 24px;
     padding: 30px;
